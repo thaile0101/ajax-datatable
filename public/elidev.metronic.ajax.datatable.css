@@ -1,0 +1,81 @@
+.dataTables_wrapper .dataTables_processing {
+  border: none !important;
+  background: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-filter-cancel {
+  color: #337ab7 !important;
+  font-weight: normal !important;
+}
+
+table .btn:not(.btn-sm):not(.btn-lg) {
+  line-height: 1;
+  padding: 5px 8px;
+}
+
+table th.text-center:last-child {
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+#filter-navigation .btn-group .action-filter.active {
+  color: #333;
+}
+
+#filter-navigation .btn-group .action-filter.active:hover {
+  text-decoration: none;
+}
+
+.dataTables_paginate {
+  width: 185px;
+}
+
+.dataTables_paginate .pagination-panel {
+  text-align: left;
+}
+
+.dataTables_paginate .pagination-panel .pagination-panel-input {
+  display: inline-block;
+  width: 30%;
+}
+
+.table-group-actions > select {
+  float: left;
+  width: 58%;
+  margin-right: 10px;
+}
+
+.table-group-actions > button {
+  float: left;
+}
+
+.table-container .font-green-jungle {
+  color: #26C281 !important;
+}
+
+.table-container .btn-filter-cancel {
+  color: #fff !important;
+  padding: 11px !important;
+}
+
+.table-container .m-radio > input,
+.table-container .m-checkbox > input {
+  right: 10px;
+  cursor: pointer;
+  z-index: 100;
+  width: 20px;
+  height: 20px;
+}
+
+.table-container .table-group-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dataTables_wrapper table.dataTable .filter .sorting_asc {
+  background: none;
+}
+
